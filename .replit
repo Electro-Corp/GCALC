@@ -1,0 +1,5 @@
+run = "mkdir -p build && cd build && cmake .. && make && ./GCALC"
+entrypoint = "README.md"
+
+[nix]
+channel = "stable-23_11"
