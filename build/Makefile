@@ -129,6 +129,30 @@ GCALC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/build
 .PHONY : GCALC/fast
 
+src/draw/drawableFunction.o: src/draw/drawableFunction.cpp.o
+.PHONY : src/draw/drawableFunction.o
+
+# target to build an object file
+src/draw/drawableFunction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/draw/drawableFunction.cpp.o
+.PHONY : src/draw/drawableFunction.cpp.o
+
+src/draw/drawableFunction.i: src/draw/drawableFunction.cpp.i
+.PHONY : src/draw/drawableFunction.i
+
+# target to preprocess a source file
+src/draw/drawableFunction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/draw/drawableFunction.cpp.i
+.PHONY : src/draw/drawableFunction.cpp.i
+
+src/draw/drawableFunction.s: src/draw/drawableFunction.cpp.s
+.PHONY : src/draw/drawableFunction.s
+
+# target to generate assembly for a file
+src/draw/drawableFunction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/draw/drawableFunction.cpp.s
+.PHONY : src/draw/drawableFunction.cpp.s
+
 src/draw/line.o: src/draw/line.cpp.o
 .PHONY : src/draw/line.o
 
@@ -258,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GCALC"
+	@echo "... src/draw/drawableFunction.o"
+	@echo "... src/draw/drawableFunction.i"
+	@echo "... src/draw/drawableFunction.s"
 	@echo "... src/draw/line.o"
 	@echo "... src/draw/line.i"
 	@echo "... src/draw/line.s"

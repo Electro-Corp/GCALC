@@ -9,6 +9,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # SDL
 find_package(SDL2 REQUIRED)
 find_package(SDL2_ttf REQUIRED)
+
+# CTRE
+find_package(CTRE REQUIRED)
+
 # Include directories
 include_directories(src)
 
@@ -20,8 +24,11 @@ add_executable(GCALC
     src/graphics.cpp
     src/draw/line.cpp
     src/draw/text.cpp
+    src/draw/drawableFunction.cpp
     # Function
     src/function/function.cpp
+    #ctre-addon
+    src/ctreextra.hpp
     # main
     src/main.cpp
 )
@@ -31,3 +38,5 @@ add_executable(GCALC
 target_compile_options(GCALC PUBLIC -fpermissive -g -O2)
 
 target_link_libraries(GCALC ${SDL2_LIBRARIES} ${SDLTTF_LIBRARIES} SDL2_ttf)
+
+target_link_libraries(GCALC ${CTRE_LIBRARIES})

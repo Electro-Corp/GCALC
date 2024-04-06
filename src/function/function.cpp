@@ -1,27 +1,45 @@
 #include "function.h"
 
-Func::Func(std::string funcStr) {
-    this->funcStr = funcStr;
-  
-    // Replaces all instances of '-' with "+ -1*" 
-    std::regex_replace(funcStr, std::regex("-"), "+ -1*");
+Func::Func(std::string _funcStr) {
+    this->funcStr = _funcStr;
 
-    // Removes all spaces
-    std::regex_replace(funcStr, std::regex(" "), "");
+    std::vector<Func> sep;
     
-    // Mildly pointless 
-    // Regex Statement that takes the first instance of an open parenthesis and takes all text inbetween it and the last closed parenthesis
-    // std::regex parenthesis("\(.+\)");
+    
+    
+    /*
+    // ctre::match<"^\\(|\\)$| ">(funcStr);
 
-    std::smatch match;
-    std::regex_search(funcStr, match, std::regex("\\(([^)]+)\\)"));
-    if (match.size() > 1) {
-        std::string extracted = match.str(1);
-        // Do something with extracted
+    constexpr auto pattern = ctll::fixed_string("^\\(|\\)$| ");
+    auto regex = ctre::regular_expression(pattern);
+
+    constexpr auto match(std::string_view sv) noexcept {
+        return ctre::match<patern>(sv);
+    } 
+
+    /*
+    while (match) {
+        funcStr[match.get_end()] = ""; // what the char is set to
+        match = regex.match(funcStr, match.get_end());
     }
+    */
     
-    // Removes first and last characters if the are opened and closed parenthesis respectively
-    std::regex_replace(funcStr, std::regex("^\\(|\\)$"), "");
+    /*
+    // Remove spaces, and open/closed parenthesis at the start/end
+    // Ex.
+    // ( 2 + 4 ) -> 2+4    
+    funcStr = std::regex_replace(funcStr, std::regex("^\\(|\\)$| "), "");
+
+    // Replaces all instances of - with +-1*
+    // This might not be necaserry but ill do it anyway
+    funcStr = std::regex_replace(funcStr, std::regex("-"), "+-1*");
+
+    // Replace instances of x without a number before it with 1*x
+    funcStr = std::regex_replace(funcStr, std::regex("^x|\\+x"), "+1*x");
+
+    // Replace instances of x with a coefficient with *x
+    funcStr = std::regex_replace(funcStr, std::regex("(?<=\\d)x"), "*x");
+    */
 }
 
 void Func::print() {
@@ -37,4 +55,8 @@ void Func::print() {
 
 std::vector<Func> Func::getFuncs() {
     return this->funcs;
+}
+
+double Func::solve(double x){
+  return 0.1 * (x * x);
 }
