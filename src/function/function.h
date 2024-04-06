@@ -4,6 +4,9 @@
 #include <string>
 #include <vector>
 #include <sstream>
+#include <iostream>
+#include <algorithm>
+#include <regex>
 
 /*
   Class 
@@ -12,6 +15,9 @@ class Func {
   public:
     Func(std::string funcStr);
     double solve(double x);
+    void print();
+    std::vector<Func> getFuncs();
+
   private:
     std::string funcStr;
     std::vector<Func> funcs;

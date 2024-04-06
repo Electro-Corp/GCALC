@@ -6,7 +6,7 @@
 #include "draw/line.h"
 #include "draw/text.h"
 
-#include "equation/equation.h"
+#include "function/function.h"
 
 int height = 600;
 int widthRender = 800;
@@ -41,10 +41,12 @@ int main(){
   Text testText("Test", 0, 0, 20, tempRGB);
 
   // Equation
-  std::string tempequation = "x^2 - 3x + 2";
-  Equation testEquation(tempequation);
+  std::string tempequation = "x^2 - 3x + 2 - sin(PI()x + 12x + 4) - cos(4PI()x - 4x)";
+  std::string simple = "x^2 + 2x + 2";
+  Func testEquation(tempequation);
+  testEquation.print();
   
-
+  // Drawing Axis
   rWindow.addObj(&axisLineX);
   rWindow.addObj(&axisLineY);
   rWindow.addObj(&moveWithMouse1);
@@ -63,13 +65,4 @@ int main(){
     
     iWindow.tick();
   }
-
-  drawAxis(rWindow);
 }
-
-/*void drawAxis(Graphics rWindow) {
-  RGB tempRGB { 255 };
-  rWindow.drawLine(0 + renderXOffset, 0, renderXOffset, height, tempRGB);
-  rWindow.drawLine(0, renderYOffset, width, renderYOffset, tempRGB);
-
-}*/

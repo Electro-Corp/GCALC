@@ -111,24 +111,10 @@ CMakeFiles/GCALC.dir/src/draw/text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GCALC.dir/src/draw/text.cpp.s"
 	/nix/store/90h6k8ylkgn81k10190v5c9ldyjpzgl9-gcc-wrapper-12.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/GraphingCalculator/src/draw/text.cpp -o CMakeFiles/GCALC.dir/src/draw/text.cpp.s
 
-CMakeFiles/GCALC.dir/src/equation/equation.cpp.o: CMakeFiles/GCALC.dir/flags.make
-CMakeFiles/GCALC.dir/src/equation/equation.cpp.o: /home/runner/GraphingCalculator/src/equation/equation.cpp
-CMakeFiles/GCALC.dir/src/equation/equation.cpp.o: CMakeFiles/GCALC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/GraphingCalculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GCALC.dir/src/equation/equation.cpp.o"
-	/nix/store/90h6k8ylkgn81k10190v5c9ldyjpzgl9-gcc-wrapper-12.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GCALC.dir/src/equation/equation.cpp.o -MF CMakeFiles/GCALC.dir/src/equation/equation.cpp.o.d -o CMakeFiles/GCALC.dir/src/equation/equation.cpp.o -c /home/runner/GraphingCalculator/src/equation/equation.cpp
-
-CMakeFiles/GCALC.dir/src/equation/equation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GCALC.dir/src/equation/equation.cpp.i"
-	/nix/store/90h6k8ylkgn81k10190v5c9ldyjpzgl9-gcc-wrapper-12.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/GraphingCalculator/src/equation/equation.cpp > CMakeFiles/GCALC.dir/src/equation/equation.cpp.i
-
-CMakeFiles/GCALC.dir/src/equation/equation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GCALC.dir/src/equation/equation.cpp.s"
-	/nix/store/90h6k8ylkgn81k10190v5c9ldyjpzgl9-gcc-wrapper-12.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/GraphingCalculator/src/equation/equation.cpp -o CMakeFiles/GCALC.dir/src/equation/equation.cpp.s
-
 CMakeFiles/GCALC.dir/src/function/function.cpp.o: CMakeFiles/GCALC.dir/flags.make
 CMakeFiles/GCALC.dir/src/function/function.cpp.o: /home/runner/GraphingCalculator/src/function/function.cpp
 CMakeFiles/GCALC.dir/src/function/function.cpp.o: CMakeFiles/GCALC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/GraphingCalculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GCALC.dir/src/function/function.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/GraphingCalculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GCALC.dir/src/function/function.cpp.o"
 	/nix/store/90h6k8ylkgn81k10190v5c9ldyjpzgl9-gcc-wrapper-12.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GCALC.dir/src/function/function.cpp.o -MF CMakeFiles/GCALC.dir/src/function/function.cpp.o.d -o CMakeFiles/GCALC.dir/src/function/function.cpp.o -c /home/runner/GraphingCalculator/src/function/function.cpp
 
 CMakeFiles/GCALC.dir/src/function/function.cpp.i: cmake_force
@@ -142,7 +128,7 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.s: cmake_force
 CMakeFiles/GCALC.dir/src/main.cpp.o: CMakeFiles/GCALC.dir/flags.make
 CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cpp
 CMakeFiles/GCALC.dir/src/main.cpp.o: CMakeFiles/GCALC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/GraphingCalculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GCALC.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/GraphingCalculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GCALC.dir/src/main.cpp.o"
 	/nix/store/90h6k8ylkgn81k10190v5c9ldyjpzgl9-gcc-wrapper-12.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GCALC.dir/src/main.cpp.o -MF CMakeFiles/GCALC.dir/src/main.cpp.o.d -o CMakeFiles/GCALC.dir/src/main.cpp.o -c /home/runner/GraphingCalculator/src/main.cpp
 
 CMakeFiles/GCALC.dir/src/main.cpp.i: cmake_force
@@ -158,7 +144,6 @@ GCALC_OBJECTS = \
 "CMakeFiles/GCALC.dir/src/graphics.cpp.o" \
 "CMakeFiles/GCALC.dir/src/draw/line.cpp.o" \
 "CMakeFiles/GCALC.dir/src/draw/text.cpp.o" \
-"CMakeFiles/GCALC.dir/src/equation/equation.cpp.o" \
 "CMakeFiles/GCALC.dir/src/function/function.cpp.o" \
 "CMakeFiles/GCALC.dir/src/main.cpp.o"
 
@@ -168,13 +153,12 @@ GCALC_EXTERNAL_OBJECTS =
 GCALC: CMakeFiles/GCALC.dir/src/graphics.cpp.o
 GCALC: CMakeFiles/GCALC.dir/src/draw/line.cpp.o
 GCALC: CMakeFiles/GCALC.dir/src/draw/text.cpp.o
-GCALC: CMakeFiles/GCALC.dir/src/equation/equation.cpp.o
 GCALC: CMakeFiles/GCALC.dir/src/function/function.cpp.o
 GCALC: CMakeFiles/GCALC.dir/src/main.cpp.o
 GCALC: CMakeFiles/GCALC.dir/build.make
 GCALC: /nix/store/hzfvp1pay5sqq96l20i4ahi7yrajjgfy-SDL2-2.28.4/lib/libSDL2.so
 GCALC: CMakeFiles/GCALC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/GraphingCalculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable GCALC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/GraphingCalculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable GCALC"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GCALC.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

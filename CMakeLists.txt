@@ -20,8 +20,6 @@ add_executable(GCALC
     src/graphics.cpp
     src/draw/line.cpp
     src/draw/text.cpp
-    # Equation
-    src/equation/equation.cpp
     # Function
     src/function/function.cpp
     # main

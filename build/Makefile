@@ -177,30 +177,6 @@ src/draw/text.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/draw/text.cpp.s
 .PHONY : src/draw/text.cpp.s
 
-src/equation/equation.o: src/equation/equation.cpp.o
-.PHONY : src/equation/equation.o
-
-# target to build an object file
-src/equation/equation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/equation/equation.cpp.o
-.PHONY : src/equation/equation.cpp.o
-
-src/equation/equation.i: src/equation/equation.cpp.i
-.PHONY : src/equation/equation.i
-
-# target to preprocess a source file
-src/equation/equation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/equation/equation.cpp.i
-.PHONY : src/equation/equation.cpp.i
-
-src/equation/equation.s: src/equation/equation.cpp.s
-.PHONY : src/equation/equation.s
-
-# target to generate assembly for a file
-src/equation/equation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/equation/equation.cpp.s
-.PHONY : src/equation/equation.cpp.s
-
 src/function/function.o: src/function/function.cpp.o
 .PHONY : src/function/function.o
 
@@ -288,9 +264,6 @@ help:
 	@echo "... src/draw/text.o"
 	@echo "... src/draw/text.i"
 	@echo "... src/draw/text.s"
-	@echo "... src/equation/equation.o"
-	@echo "... src/equation/equation.i"
-	@echo "... src/equation/equation.s"
 	@echo "... src/function/function.o"
 	@echo "... src/function/function.i"
 	@echo "... src/function/function.s"

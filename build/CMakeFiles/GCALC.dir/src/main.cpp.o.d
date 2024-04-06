@@ -383,7 +383,7 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: \
  /nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/include/SDL2/SDL.h \
  /nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/include/SDL2/begin_code.h \
  /nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/include/SDL2/close_code.h \
- /home/runner/GraphingCalculator/src/equation/equation.h \
+ /home/runner/GraphingCalculator/src/function/function.h \
  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/sstream \
  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/sstream.tcc \
  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/algorithm \
@@ -396,5 +396,4 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: \
  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ranges_algobase.h \
  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ranges_util.h \
  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/pstl/glue_algorithm_defs.h \
- /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/pstl/execution_defs.h \
- /home/runner/GraphingCalculator/src/function/function.h
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/pstl/execution_defs.h

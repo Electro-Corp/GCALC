@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/runner/GraphingCalculator/src/draw/line.cpp" "CMakeFiles/GCALC.dir/src/draw/line.cpp.o" "gcc" "CMakeFiles/GCALC.dir/src/draw/line.cpp.o.d"
   "/home/runner/GraphingCalculator/src/draw/text.cpp" "CMakeFiles/GCALC.dir/src/draw/text.cpp.o" "gcc" "CMakeFiles/GCALC.dir/src/draw/text.cpp.o.d"
-  "/home/runner/GraphingCalculator/src/equation/equation.cpp" "CMakeFiles/GCALC.dir/src/equation/equation.cpp.o" "gcc" "CMakeFiles/GCALC.dir/src/equation/equation.cpp.o.d"
   "/home/runner/GraphingCalculator/src/function/function.cpp" "CMakeFiles/GCALC.dir/src/function/function.cpp.o" "gcc" "CMakeFiles/GCALC.dir/src/function/function.cpp.o.d"
   "/home/runner/GraphingCalculator/src/graphics.cpp" "CMakeFiles/GCALC.dir/src/graphics.cpp.o" "gcc" "CMakeFiles/GCALC.dir/src/graphics.cpp.o.d"
   "/home/runner/GraphingCalculator/src/main.cpp" "CMakeFiles/GCALC.dir/src/main.cpp.o" "gcc" "CMakeFiles/GCALC.dir/src/main.cpp.o.d"

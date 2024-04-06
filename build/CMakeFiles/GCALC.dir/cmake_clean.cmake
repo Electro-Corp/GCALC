@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/GCALC.dir/src/draw/line.cpp.o.d"
   "CMakeFiles/GCALC.dir/src/draw/text.cpp.o"
   "CMakeFiles/GCALC.dir/src/draw/text.cpp.o.d"
-  "CMakeFiles/GCALC.dir/src/equation/equation.cpp.o"
-  "CMakeFiles/GCALC.dir/src/equation/equation.cpp.o.d"
   "CMakeFiles/GCALC.dir/src/function/function.cpp.o"
   "CMakeFiles/GCALC.dir/src/function/function.cpp.o.d"
   "CMakeFiles/GCALC.dir/src/graphics.cpp.o"
