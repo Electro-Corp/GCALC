@@ -1,31 +1,27 @@
 #include "function.h"
 
 Func::Func(std::string funcStr) {
-  this->funcStr = funcStr;
+    this->funcStr = funcStr;
   
-  size_t pos = 0;
-  while ((pos = this->funcStr.find("-", pos)) != std::string::npos) {
-      this->funcStr.replace(pos, 1, "+-");
-      pos += 2;
-  }
+    // Replaces all instances of '-' with "+ -1*" 
+    std::regex_replace(funcStr, std::regex("-"), "+ -1*");
 
-  pos = 0;
-  std::istringstream iss(this->funcStr);
-  std::string part;
-
-std::cout << "funcStr: " << this->funcStr << std::endl;
+    // Removes all spaces
+    std::regex_replace(funcStr, std::regex(" "), "");
     
-  auto count = std::ranges::count(funcStr, '+');
-  int c = 0;
-  std::cout << "count" << count << std::endl;
-    
-  while (++c < count) {
-    std::getline(iss, part, '+');
+    // Mildly pointless 
+    // Regex Statement that takes the first instance of an open parenthesis and takes all text inbetween it and the last closed parenthesis
+    // std::regex parenthesis("\(.+\)");
 
-    Func tmp { part };
-    funcs.push_back(tmp);
-      std::cout << part << std::endl;
-  }    
+    std::smatch match;
+    std::regex_search(funcStr, match, std::regex("\\(([^)]+)\\)"));
+    if (match.size() > 1) {
+        std::string extracted = match.str(1);
+        // Do something with extracted
+    }
+    
+    // Removes first and last characters if the are opened and closed parenthesis respectively
+    std::regex_replace(funcStr, std::regex("^\\(|\\)$"), "");
 }
 
 void Func::print() {
