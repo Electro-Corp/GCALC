@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 #include "graphics.h"
 #include "rgb.h"
@@ -40,7 +41,8 @@ int main(){
   Text testText("Test", 0, 0, 20, tempRGB);
 
   // Equation
-  Equation testEquation("x^2 + 3x + 2");
+  std::string tempequation = "x^2 - 3x + 2";
+  Equation testEquation(tempequation);
   
 
   rWindow.addObj(&axisLineX);

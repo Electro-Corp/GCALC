@@ -10,6 +10,6 @@ Line::Line(float x1, float y1, float x2, float y2, RGB rgb){
 }
 
 void Line::Draw(SDL_Renderer* render){
-  SDL_SetRenderDrawColor(render, rgb.r, rgb.g, rgb.b, 255);
+  SDL_SetRenderDrawColor(render, rgb.r, rgb.g, rgb.b, rgb.a);
   SDL_RenderDrawLine(render, x1, y1, x2, y2);
 }

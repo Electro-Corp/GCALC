@@ -17,7 +17,7 @@ Text::Text(std::string text, int x, int y, int size, RGB rgb){
 
 
 void Text::Draw(SDL_Renderer* render){
-  SDL_Surface* surface = TTF_RenderText_Solid(font, text.c_str(), {rgb.r, rgb.g, rgb.b, 255});
+  SDL_Surface* surface = TTF_RenderText_Solid(font, text.c_str(), {rgb.r, rgb.g, rgb.b, rgb.a});
   texture = SDL_CreateTextureFromSurface(render, surface);
   SDL_FreeSurface(surface);
   SDL_Rect rect = {this->x, this->y, surface->w, surface->h};

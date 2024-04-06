@@ -382,4 +382,19 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: \
  /nix/store/ld9g3hp1c2spplr57x3gmq0ncxs5d8s1-SDL2_ttf-2.20.2/include/SDL2/SDL_ttf.h \
  /nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/include/SDL2/SDL.h \
  /nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/include/SDL2/begin_code.h \
- /nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/include/SDL2/close_code.h
+ /nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/include/SDL2/close_code.h \
+ /home/runner/GraphingCalculator/src/equation/equation.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/sstream \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/sstream.tcc \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/algorithm \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_algo.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/algorithmfwd.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_heap.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_tempbuf.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/uniform_int_dist.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ranges_algo.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ranges_algobase.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ranges_util.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/pstl/glue_algorithm_defs.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/pstl/execution_defs.h \
+ /home/runner/GraphingCalculator/src/function/function.h
