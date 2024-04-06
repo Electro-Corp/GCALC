@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/runner/GraphingCalculator/src/draw/line.cpp" "CMakeFiles/GCALC.dir/src/draw/line.cpp.o" "gcc" "CMakeFiles/GCALC.dir/src/draw/line.cpp.o.d"
+  "/home/runner/GraphingCalculator/src/draw/text.cpp" "CMakeFiles/GCALC.dir/src/draw/text.cpp.o" "gcc" "CMakeFiles/GCALC.dir/src/draw/text.cpp.o.d"
   "/home/runner/GraphingCalculator/src/graphics.cpp" "CMakeFiles/GCALC.dir/src/graphics.cpp.o" "gcc" "CMakeFiles/GCALC.dir/src/graphics.cpp.o.d"
   "/home/runner/GraphingCalculator/src/main.cpp" "CMakeFiles/GCALC.dir/src/main.cpp.o" "gcc" "CMakeFiles/GCALC.dir/src/main.cpp.o.d"
   )

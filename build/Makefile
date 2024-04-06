@@ -153,6 +153,30 @@ src/draw/line.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/draw/line.cpp.s
 .PHONY : src/draw/line.cpp.s
 
+src/draw/text.o: src/draw/text.cpp.o
+.PHONY : src/draw/text.o
+
+# target to build an object file
+src/draw/text.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/draw/text.cpp.o
+.PHONY : src/draw/text.cpp.o
+
+src/draw/text.i: src/draw/text.cpp.i
+.PHONY : src/draw/text.i
+
+# target to preprocess a source file
+src/draw/text.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/draw/text.cpp.i
+.PHONY : src/draw/text.cpp.i
+
+src/draw/text.s: src/draw/text.cpp.s
+.PHONY : src/draw/text.s
+
+# target to generate assembly for a file
+src/draw/text.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/draw/text.cpp.s
+.PHONY : src/draw/text.cpp.s
+
 src/graphics.o: src/graphics.cpp.o
 .PHONY : src/graphics.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/draw/line.o"
 	@echo "... src/draw/line.i"
 	@echo "... src/draw/line.s"
+	@echo "... src/draw/text.o"
+	@echo "... src/draw/text.i"
+	@echo "... src/draw/text.s"
 	@echo "... src/graphics.o"
 	@echo "... src/graphics.i"
 	@echo "... src/graphics.s"

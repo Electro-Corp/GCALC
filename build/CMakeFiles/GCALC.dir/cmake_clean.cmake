@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GCALC.dir/src/draw/line.cpp.o"
   "CMakeFiles/GCALC.dir/src/draw/line.cpp.o.d"
+  "CMakeFiles/GCALC.dir/src/draw/text.cpp.o"
+  "CMakeFiles/GCALC.dir/src/draw/text.cpp.o.d"
   "CMakeFiles/GCALC.dir/src/graphics.cpp.o"
   "CMakeFiles/GCALC.dir/src/graphics.cpp.o.d"
   "CMakeFiles/GCALC.dir/src/main.cpp.o"

@@ -8,15 +8,18 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # SDL
 find_package(SDL2 REQUIRED)
-
+find_package(SDL2_ttf REQUIRED)
 # Include directories
 include_directories(src)
+
+
 
 # Compiler executable
 add_executable(GCALC
     # Graphics
     src/graphics.cpp
     src/draw/line.cpp
+    src/draw/text.cpp
     # main
     src/main.cpp
 )
@@ -25,4 +28,4 @@ add_executable(GCALC
 # Flags
 target_compile_options(GCALC PUBLIC -fpermissive -g -O2)
 
-target_link_libraries(GCALC ${SDL2_LIBRARIES})
+target_link_libraries(GCALC ${SDL2_LIBRARIES} ${SDLTTF_LIBRARIES} SDL2_ttf)

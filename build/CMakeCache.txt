@@ -236,6 +236,18 @@ GCLAC_SOURCE_DIR:STATIC=/home/runner/GraphingCalculator
 //The directory containing a CMake configuration file for SDL2.
 SDL2_DIR:PATH=/nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/lib/cmake/SDL2
 
+//The directory containing a CMake configuration file for SDL2_ttf.
+SDL2_ttf_DIR:PATH=/nix/store/ld9g3hp1c2spplr57x3gmq0ncxs5d8s1-SDL2_ttf-2.20.2/lib/cmake/SDL2_ttf
+
+//The directory containing a CMake configuration file for SDLTTF.
+SDLTTF_DIR:PATH=SDLTTF_DIR-NOTFOUND
+
+//Path to a file.
+SDL_TTF_INCLUDE_DIR:PATH=/nix/store/s9qkyybp8p2yna6c8z18vvhf526dywxi-SDL_ttf-2.0.11/include/SDL
+
+//Path to a library.
+SDL_TTF_LIBRARY:FILEPATH=/nix/store/s9qkyybp8p2yna6c8z18vvhf526dywxi-SDL_ttf-2.0.11/lib/libSDL_ttf.so
+
 
 ########################
 # INTERNAL cache entries
@@ -386,6 +398,12 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/nix/store/bblyj5b3ii8n6v4ra0nb37cmi3lf8rz9-coreutils-9.3/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding SDL_ttf
+FIND_PACKAGE_MESSAGE_DETAILS_SDL_ttf:INTERNAL=[/nix/store/s9qkyybp8p2yna6c8z18vvhf526dywxi-SDL_ttf-2.0.11/lib/libSDL_ttf.so][/nix/store/s9qkyybp8p2yna6c8z18vvhf526dywxi-SDL_ttf-2.0.11/include/SDL][v2.0.11()]
+//ADVANCED property for variable: SDL_TTF_INCLUDE_DIR
+SDL_TTF_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL_TTF_LIBRARY
+SDL_TTF_LIBRARY-ADVANCED:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 

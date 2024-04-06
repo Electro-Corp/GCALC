@@ -13,10 +13,12 @@ class Graphics{
 private:
   SDL_Window* window;
   SDL_Renderer* renderer;
+
   std::vector<Drawable*> drawables;
 public:
 
   RGB bg;
+  int mouseX = 0, mouseY = 0;
 
   Graphics(std::string title, int width, int height);
 

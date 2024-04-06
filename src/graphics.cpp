@@ -26,7 +26,10 @@ void Graphics::handleInput(){
         default:
             break;
       }
-    break;
+      break;
+    case SDL_MOUSEMOTION:
+      SDL_GetMouseState(&this->mouseX, &this->mouseY);
+      break;
   }
 }
 
@@ -35,11 +38,9 @@ void Graphics::tick(){
   // Renderer
   SDL_SetRenderDrawColor(renderer, bg.r, bg.g, bg.b, 255);
   SDL_RenderClear(renderer);
-
+  // Render all objects
   for(auto& obj : drawables){
     obj->Draw(renderer);
   };
-  
-  
   SDL_RenderPresent(renderer);
 }
