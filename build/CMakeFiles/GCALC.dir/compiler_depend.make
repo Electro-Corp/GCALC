@@ -1093,6 +1093,7 @@ CMakeFiles/GCALC.dir/src/draw/text.cpp.o: /home/runner/GraphingCalculator/src/dr
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wchar.h
 
 CMakeFiles/GCALC.dir/src/function/function.cpp.o: /home/runner/GraphingCalculator/src/function/function.cpp \
+  /home/runner/GraphingCalculator/src/ctreextra.hpp \
   /home/runner/GraphingCalculator/src/function/function.h \
   /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll.hpp \
   /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/actions.hpp \
@@ -2504,6 +2505,8 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/lwpintrin.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/keylockerintrin.h:
+
+/home/runner/GraphingCalculator/src/ctreextra.hpp:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/hresetintrin.h:
 

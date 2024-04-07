@@ -33,6 +33,10 @@ void Graphics::handleInput(){
   }
 }
 
+float Graphics::getTicks(){
+  return SDL_GetTicks();
+}
+
 void Graphics::tick(){
   handleInput();
   // Renderer

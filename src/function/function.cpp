@@ -1,9 +1,10 @@
 #include "function.h"
+#include "../ctreextra.hpp"
 
 Func::Func(std::string _funcStr) {
     this->funcStr = _funcStr;
 
-    std::vector<Func> sep;
+    //ctrea::replace(this->funcStr, "^\\(|\\)$| ", "");
     
     
     
@@ -58,5 +59,5 @@ std::vector<Func> Func::getFuncs() {
 }
 
 double Func::solve(double x){
-  return 0.1 * (x * x);
+  return (0.1 * (x * x));
 }

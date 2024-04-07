@@ -24,6 +24,8 @@ public:
 
   void addObj(Drawable* obj);
 
+  float getTicks();
+
   void handleInput();
 
   void tick();

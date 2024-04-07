@@ -42,6 +42,7 @@ int main(){
   Line moveWithMouse2(0, 0, width, height, red);
 
   Text testText("Test", 0, 0, 20, tempRGB);
+  Text fps("FPS", 0, 30, 20, tempRGB);
 
   // Equation
   std::string tempequation = "x^2 - 3x + 2 - sin(PI()x + 12x + 4) - cos(4PI()x - 4x) + x";
@@ -58,13 +59,15 @@ int main(){
   rWindow.addObj(&moveWithMouse1);
   rWindow.addObj(&moveWithMouse2);
   rWindow.addObj(&testText);
+  rWindow.addObj(&fps);
   rWindow.addObj(&testDrawFunc);
-  
+
+  int countedFrames = 0;
   
   while(1) {
     rWindow.tick();
     testText.text = std::string{std::to_string((rWindow.mouseX - renderXOffset) * scale) + ", " + std::to_string((height - rWindow.mouseY - renderYOffset) * scale)};
-
+    fps.text = std::string{"FPS: " + std::to_string(rWindow.getTicks() / countedFrames)};
     FUNCTION_DRAW_CONFIG* config = testDrawFunc.getConfig();
     config->xMin = viewPortXMin;
     config->xMax = viewPortXMax;
@@ -75,5 +78,6 @@ int main(){
     moveWithMouse2.x2 = rWindow.mouseX;
     
     iWindow.tick();
+    countedFrames++;
   }
 }

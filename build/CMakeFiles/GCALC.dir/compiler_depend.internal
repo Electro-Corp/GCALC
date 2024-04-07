@@ -1097,6 +1097,7 @@ CMakeFiles/GCALC.dir/src/draw/text.cpp.o
 
 CMakeFiles/GCALC.dir/src/function/function.cpp.o
  /home/runner/GraphingCalculator/src/function/function.cpp
+ /home/runner/GraphingCalculator/src/ctreextra.hpp
  /home/runner/GraphingCalculator/src/function/function.h
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll.hpp
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/actions.hpp

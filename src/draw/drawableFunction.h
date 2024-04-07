@@ -7,16 +7,23 @@
 #include "../rgb.h"
 #include "../function/function.h"
 
+#include <vector>
+
 typedef struct {
   float xOffset, yOffset;
   int xMin, xMax, width, height;
+  float delta;
 } FUNCTION_DRAW_CONFIG;
+
+typedef struct {
+  float x, y;
+} POINT;
 
 class DrawFunc : public Drawable{
 private:
   Func* function;
-  FUNCTION_DRAW_CONFIG config;
-  float delta = 1.0f;
+  FUNCTION_DRAW_CONFIG config , prevConfig;
+  std::vector<POINT> points;
 public:
   RGB rgb;
 
