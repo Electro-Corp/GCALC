@@ -13,6 +13,9 @@ find_package(SDL2_ttf REQUIRED)
 # CTRE
 find_package(CTRE REQUIRED)
 
+# Java
+find_package(JNI)
+
 # Include directories
 include_directories(src)
 
@@ -20,6 +23,8 @@ include_directories(src)
 
 # Compiler executable
 add_executable(GCALC
+    # Java helper
+    src/java.cpp
     # Graphics
     src/graphics.cpp
     src/draw/line.cpp
@@ -28,6 +33,7 @@ add_executable(GCALC
     # Function
     src/function/function.cpp
     #ctre-addon
+    src/ctre-consts.hpp
     src/ctreextra.hpp
     # main
     src/main.cpp
@@ -38,5 +44,7 @@ add_executable(GCALC
 target_compile_options(GCALC PUBLIC -fpermissive -g -O2)
 
 target_link_libraries(GCALC ${SDL2_LIBRARIES} ${SDLTTF_LIBRARIES} SDL2_ttf)
+
+target_link_libraries(GCALC ${JNI_LIBRARIES})
 
 target_link_libraries(GCALC ${CTRE_LIBRARIES})

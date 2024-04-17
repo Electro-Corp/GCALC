@@ -249,6 +249,30 @@ src/graphics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/graphics.cpp.s
 .PHONY : src/graphics.cpp.s
 
+src/java.o: src/java.cpp.o
+.PHONY : src/java.o
+
+# target to build an object file
+src/java.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/java.cpp.o
+.PHONY : src/java.cpp.o
+
+src/java.i: src/java.cpp.i
+.PHONY : src/java.i
+
+# target to preprocess a source file
+src/java.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/java.cpp.i
+.PHONY : src/java.cpp.i
+
+src/java.s: src/java.cpp.s
+.PHONY : src/java.s
+
+# target to generate assembly for a file
+src/java.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GCALC.dir/build.make CMakeFiles/GCALC.dir/src/java.cpp.s
+.PHONY : src/java.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -297,6 +321,9 @@ help:
 	@echo "... src/graphics.o"
 	@echo "... src/graphics.i"
 	@echo "... src/graphics.s"
+	@echo "... src/java.o"
+	@echo "... src/java.i"
+	@echo "... src/java.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

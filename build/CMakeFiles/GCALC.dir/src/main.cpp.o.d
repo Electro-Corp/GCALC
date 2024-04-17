@@ -375,6 +375,12 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: \
  /nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/include/SDL2/SDL_misc.h \
  /home/runner/GraphingCalculator/src/rgb.h \
  /home/runner/GraphingCalculator/src/drawable.h \
+ /home/runner/GraphingCalculator/src/java.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/variant \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/enable_special_members.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/parse_numbers.h \
+ /nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni.h \
+ /nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni_md.h \
  /home/runner/GraphingCalculator/src/draw/line.h \
  /home/runner/GraphingCalculator/src/draw/../drawable.h \
  /home/runner/GraphingCalculator/src/draw/../rgb.h \
@@ -500,4 +506,5 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/range.hpp \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/operators.hpp \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll.hpp \
+ /home/runner/GraphingCalculator/src/draw/../function/../java.h \
  /home/runner/GraphingCalculator/src/function/function.h

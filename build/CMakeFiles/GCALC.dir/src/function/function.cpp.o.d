@@ -259,6 +259,31 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.o: \
  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/regex.tcc \
  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/regex_executor.h \
  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/regex_executor.tcc \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cmath \
+ /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/math.h \
+ /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/math-vector.h \
+ /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/libm-simd-decl-stubs.h \
+ /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/flt-eval-method.h \
+ /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/fp-logb.h \
+ /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/fp-fast.h \
+ /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/mathcalls-helper-functions.h \
+ /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/mathcalls.h \
+ /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/mathcalls-narrow.h \
+ /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/iscanonical.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/specfun.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/limits \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/gamma.tcc \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/special_function_util.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/bessel_function.tcc \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/beta_function.tcc \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/ell_integral.tcc \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/exp_integral.tcc \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/hypergeometric.tcc \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/legendre_function.tcc \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/modified_bessel_func.tcc \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/poly_hermite.tcc \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/poly_laguerre.tcc \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/riemann_zeta.tcc \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre.hpp \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/literals.hpp \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll.hpp \
@@ -272,7 +297,6 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.o: \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/utilities.hpp \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/grammars.hpp \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/actions.hpp \
- /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/limits \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/pcre_actions.hpp \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/pcre.hpp \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/grammars.hpp \
@@ -320,5 +344,18 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.o: \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/range.hpp \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/operators.hpp \
  /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll.hpp \
+ /home/runner/GraphingCalculator/src/function/../java.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/variant \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/enable_special_members.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/parse_numbers.h \
+ /nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni.h \
+ /nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni_md.h \
  /home/runner/GraphingCalculator/src/function/../ctreextra.hpp \
- /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/fixed_string.hpp
+ /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/fixed_string.hpp \
+ /home/runner/GraphingCalculator/src/function/../ctre-consts.hpp \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/unordered_map \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/hashtable.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/hashtable_policy.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/unordered_map.h \
+ /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/erase_if.h \
+ /home/runner/GraphingCalculator/src/function/../ctre-consts.hpp

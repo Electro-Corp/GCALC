@@ -3,6 +3,7 @@
 
 #include "graphics.h"
 #include "rgb.h"
+#include "java.h"
 #include "draw/line.h"
 #include "draw/text.h"
 #include "draw/drawableFunction.h"
@@ -25,6 +26,7 @@ int xAxisScale = 10;
 void drawAxis(Graphics rWindow);
 
 int main(){
+  JavaHelper jHelper;
   
   Graphics rWindow("Desmos But Bad", width, height);
   Graphics iWindow("DBB Input", widthInput, height);
@@ -41,13 +43,13 @@ int main(){
   Line moveWithMouse1(0, 0, width, height, red);
   Line moveWithMouse2(0, 0, width, height, red);
 
-  Text testText("Test", 0, 0, 20, tempRGB);
-  Text fps("FPS", 0, 30, 20, tempRGB);
+  Text testText("Test", 0, 0, 28, tempRGB);
+  Text fps("FPS", 0, 30, 28, tempRGB);
 
   // Equation
   std::string tempequation = "x^2 - 3x + 2 - sin(PI()x + 12x + 4) - cos(4PI()x - 4x) + x";
   std::string simple = "x^2 + 2x + 2";
-  Func testEquation(tempequation);
+  Func testEquation(tempequation, jHelper);
   testEquation.print();
 
   DrawFunc testDrawFunc(&testEquation);
@@ -56,10 +58,14 @@ int main(){
   // Drawing Axis
   rWindow.addObj(&axisLineX);
   rWindow.addObj(&axisLineY);
+  // Cursor
   rWindow.addObj(&moveWithMouse1);
   rWindow.addObj(&moveWithMouse2);
+  // Coords
   rWindow.addObj(&testText);
+  // Framerate
   rWindow.addObj(&fps);
+  // Test function rendering
   rWindow.addObj(&testDrawFunc);
 
   int countedFrames = 0;
@@ -78,6 +84,13 @@ int main(){
     moveWithMouse2.x2 = rWindow.mouseX;
     
     iWindow.tick();
+
+    //
     countedFrames++;
+
+    // Reset if its large 
+    if(countedFrames > 200000){
+      countedFrames = 0;
+    }
   }
 }

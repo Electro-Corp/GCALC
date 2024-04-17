@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GCALC.dir/src/function/function.cpp.o.d"
   "CMakeFiles/GCALC.dir/src/graphics.cpp.o"
   "CMakeFiles/GCALC.dir/src/graphics.cpp.o.d"
+  "CMakeFiles/GCALC.dir/src/java.cpp.o"
+  "CMakeFiles/GCALC.dir/src/java.cpp.o.d"
   "CMakeFiles/GCALC.dir/src/main.cpp.o"
   "CMakeFiles/GCALC.dir/src/main.cpp.o.d"
   "GCALC"

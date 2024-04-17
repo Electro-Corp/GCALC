@@ -695,3 +695,38 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/vnhl4zdy7igx9gd3q1d548vwzz15a9ma-cmake-3.27.7/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/nix/store/vnhl4zdy7igx9gd3q1d548vwzz15a9ma-cmake-3.27.7/share/cmake-3.27/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "/nix/store/vnhl4zdy7igx9gd3q1d548vwzz15a9ma-cmake-3.27.7/share/cmake-3.27/Modules/FindJNI.cmake:486 (check_source_compiles)"
+      - "CMakeLists.txt:17 (find_package)"
+    directories:
+      source: "/home/runner/GraphingCalculator/build/CMakeFiles/CMakeScratch/TryCompile-rkZYb1"
+      binary: "/home/runner/GraphingCalculator/build/CMakeFiles/CMakeScratch/TryCompile-rkZYb1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "JNI_INCLUDE_PATH2_OPTIONAL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/GraphingCalculator/build/CMakeFiles/CMakeScratch/TryCompile-rkZYb1'
+        
+        Run Build Command(s): /nix/store/vnhl4zdy7igx9gd3q1d548vwzz15a9ma-cmake-3.27.7/bin/cmake -E env VERBOSE=1 /nix/store/v4iswb5kwj33l46dyh2zqh0nkxxlr3mz-gnumake-4.4.1/bin/make -f Makefile cmTC_af1c0/fast
+        /nix/store/v4iswb5kwj33l46dyh2zqh0nkxxlr3mz-gnumake-4.4.1/bin/make  -f CMakeFiles/cmTC_af1c0.dir/build.make CMakeFiles/cmTC_af1c0.dir/build
+        make[1]: Entering directory '/home/runner/GraphingCalculator/build/CMakeFiles/CMakeScratch/TryCompile-rkZYb1'
+        Building C object CMakeFiles/cmTC_af1c0.dir/src.c.o
+        /nix/store/90h6k8ylkgn81k10190v5c9ldyjpzgl9-gcc-wrapper-12.3.0/bin/gcc -DJNI_INCLUDE_PATH2_OPTIONAL -I/nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include  -o CMakeFiles/cmTC_af1c0.dir/src.c.o -c /home/runner/GraphingCalculator/build/CMakeFiles/CMakeScratch/TryCompile-rkZYb1/src.c
+        Linking C executable cmTC_af1c0
+        /nix/store/vnhl4zdy7igx9gd3q1d548vwzz15a9ma-cmake-3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af1c0.dir/link.txt --verbose=1
+        /nix/store/90h6k8ylkgn81k10190v5c9ldyjpzgl9-gcc-wrapper-12.3.0/bin/gcc CMakeFiles/cmTC_af1c0.dir/src.c.o -o cmTC_af1c0 
+        make[1]: Leaving directory '/home/runner/GraphingCalculator/build/CMakeFiles/CMakeScratch/TryCompile-rkZYb1'
+        
+      exitCode: 0
+...

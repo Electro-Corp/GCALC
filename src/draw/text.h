@@ -9,9 +9,7 @@ class Text : public Drawable{
 private:
   TTF_Font* font = NULL;
   SDL_Texture* texture;
-  
-  // Chat what do I need in the funciton abstract 
-  // you need to run the SDL function that draws to the SDL_Renderer
+
 public:
   RGB rgb;
   int x, y, size;

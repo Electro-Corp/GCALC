@@ -3,6 +3,7 @@
 
 CMakeFiles/GCALC.dir/src/draw/drawableFunction.cpp.o: /home/runner/GraphingCalculator/src/draw/drawableFunction.cpp \
   /home/runner/GraphingCalculator/src/drawable.h \
+  /home/runner/GraphingCalculator/src/java.h \
   /home/runner/GraphingCalculator/src/function/function.h \
   /home/runner/GraphingCalculator/src/rgb.h \
   /home/runner/GraphingCalculator/src/draw/drawableFunction.h \
@@ -74,6 +75,7 @@ CMakeFiles/GCALC.dir/src/draw/drawableFunction.cpp.o: /home/runner/GraphingCalcu
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/cxxabi_forced.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/cxxabi_init_exception.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/deque.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/enable_special_members.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception_defines.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception_ptr.h \
@@ -100,6 +102,7 @@ CMakeFiles/GCALC.dir/src/draw/drawableFunction.cpp.o: /home/runner/GraphingCalcu
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/node_handle.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ostream.tcc \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ostream_insert.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/parse_numbers.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/postypes.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/predefined_ops.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ptr_traits.h \
@@ -222,6 +225,7 @@ CMakeFiles/GCALC.dir/src/draw/drawableFunction.cpp.o: /home/runner/GraphingCalcu
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/type_traits \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/typeinfo \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/utility \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/variant \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/vector \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/atomic_word.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
@@ -486,7 +490,9 @@ CMakeFiles/GCALC.dir/src/draw/drawableFunction.cpp.o: /home/runner/GraphingCalcu
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/sys/types.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/time.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wchar.h \
-  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wctype.h
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wctype.h \
+  /nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni.h \
+  /nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni_md.h
 
 CMakeFiles/GCALC.dir/src/draw/line.cpp.o: /home/runner/GraphingCalculator/src/draw/line.cpp \
   /home/runner/GraphingCalculator/src/drawable.h \
@@ -1093,7 +1099,9 @@ CMakeFiles/GCALC.dir/src/draw/text.cpp.o: /home/runner/GraphingCalculator/src/dr
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wchar.h
 
 CMakeFiles/GCALC.dir/src/function/function.cpp.o: /home/runner/GraphingCalculator/src/function/function.cpp \
+  /home/runner/GraphingCalculator/src/ctre-consts.hpp \
   /home/runner/GraphingCalculator/src/ctreextra.hpp \
+  /home/runner/GraphingCalculator/src/java.h \
   /home/runner/GraphingCalculator/src/function/function.h \
   /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll.hpp \
   /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/actions.hpp \
@@ -1163,12 +1171,16 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.o: /home/runner/GraphingCalculato
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/cxxabi_forced.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/cxxabi_init_exception.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/deque.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/enable_special_members.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/erase_if.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception_defines.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception_ptr.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/functexcept.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/functional_hash.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/hash_bytes.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/hashtable.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/hashtable_policy.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/invoke.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ios_base.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/istream.tcc \
@@ -1189,6 +1201,7 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.o: /home/runner/GraphingCalculato
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/node_handle.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ostream.tcc \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ostream_insert.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/parse_numbers.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/postypes.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/predefined_ops.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ptr_traits.h \
@@ -1213,6 +1226,7 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.o: /home/runner/GraphingCalculato
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/regex_scanner.tcc \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/shared_ptr.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/shared_ptr_base.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/specfun.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/sstream.tcc \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/std_abs.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/std_function.h \
@@ -1241,6 +1255,7 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.o: /home/runner/GraphingCalculato
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stringfwd.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/uniform_int_dist.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/unique_ptr.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/unordered_map.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/uses_allocator.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/utility.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/vector.tcc \
@@ -1249,6 +1264,7 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.o: /home/runner/GraphingCalculato
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cerrno \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/charconv \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/clocale \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cmath \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/compare \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/concepts \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cstddef \
@@ -1291,10 +1307,24 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.o: /home/runner/GraphingCalculato
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/string \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/string_view \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/system_error \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/bessel_function.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/beta_function.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/ell_integral.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/exp_integral.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/gamma.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/hypergeometric.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/legendre_function.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/modified_bessel_func.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/poly_hermite.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/poly_laguerre.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/riemann_zeta.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/special_function_util.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tuple \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/type_traits \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/typeinfo \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/unordered_map \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/utility \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/variant \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/vector \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/atomic_word.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
@@ -1325,9 +1355,18 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.o: /home/runner/GraphingCalculato
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/errno.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/floatn-common.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/floatn.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/flt-eval-method.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/fp-fast.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/fp-logb.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/iscanonical.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/libc-header-start.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/libm-simd-decl-stubs.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/locale.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/long-double.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/math-vector.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/mathcalls-helper-functions.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/mathcalls-narrow.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/mathcalls.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/pthread_stack_min-dynamic.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/pthreadtypes-arch.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/pthreadtypes.h \
@@ -1396,6 +1435,7 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.o: /home/runner/GraphingCalculato
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/libintl.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/linux/errno.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/locale.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/math.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/sched.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/stdc-predef.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/stdint.h \
@@ -1407,7 +1447,9 @@ CMakeFiles/GCALC.dir/src/function/function.cpp.o: /home/runner/GraphingCalculato
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/sys/types.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/time.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wchar.h \
-  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wctype.h
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wctype.h \
+  /nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni.h \
+  /nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni_md.h
 
 CMakeFiles/GCALC.dir/src/graphics.cpp.o: /home/runner/GraphingCalculator/src/graphics.cpp \
   /home/runner/GraphingCalculator/src/drawable.h \
@@ -1739,8 +1781,220 @@ CMakeFiles/GCALC.dir/src/graphics.cpp.o: /home/runner/GraphingCalculator/src/gra
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/sys/types.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wchar.h
 
+CMakeFiles/GCALC.dir/src/java.cpp.o: /home/runner/GraphingCalculator/src/java.cpp \
+  /home/runner/GraphingCalculator/src/java.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/backward/binders.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/alloc_traits.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/allocator.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/basic_ios.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/basic_ios.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/basic_string.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/basic_string.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/char_traits.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/charconv.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/concept_check.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/cpp_type_traits.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/cxxabi_forced.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/cxxabi_init_exception.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/enable_special_members.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception_defines.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception_ptr.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/functexcept.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/functional_hash.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/hash_bytes.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/invoke.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ios_base.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/istream.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/iterator_concepts.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/locale_classes.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/locale_classes.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/locale_facets.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/locale_facets.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/localefwd.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/max_size_type.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/memoryfwd.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/move.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/nested_exception.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/new_allocator.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ostream.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ostream_insert.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/parse_numbers.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/postypes.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/predefined_ops.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ptr_traits.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/range_access.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ranges_base.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ranges_cmp.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/refwrap.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/std_abs.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_algobase.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_bvector.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_construct.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_function.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_iterator.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_iterator_base_funcs.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_iterator_base_types.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_pair.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_uninitialized.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_vector.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/streambuf.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/streambuf_iterator.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/string_view.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stringfwd.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/utility.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/vector.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cctype \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cerrno \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/clocale \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/compare \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/concepts \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cstdint \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cstdio \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cstdlib \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cwchar \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cwctype \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/debug/assertions.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/debug/debug.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/exception \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/ext/alloc_traits.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/ext/atomicity.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/ext/numeric_traits.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/ext/string_conversions.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/ext/type_traits.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/initializer_list \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/ios \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/iosfwd \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/iostream \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/istream \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/new \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/numbers \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/ostream \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/pstl/pstl_config.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/stdexcept \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/streambuf \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/string \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/string_view \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/system_error \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/type_traits \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/typeinfo \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/variant \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/vector \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/atomic_word.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/c++config.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/c++locale.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/cpu_defines.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/ctype_base.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/ctype_inline.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/error_constants.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/gthr-default.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/gthr.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/os_defines.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include-fixed/pthread.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/stdarg.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/stddef.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/stdint.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/alloca.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/asm-generic/errno-base.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/asm-generic/errno.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/asm/errno.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/atomic_wide_counter.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/byteswap.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/cpu-set.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/endian.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/endianness.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/errno.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/floatn-common.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/floatn.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/libc-header-start.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/locale.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/long-double.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/pthread_stack_min-dynamic.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/pthreadtypes-arch.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/pthreadtypes.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/sched.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/select-decl.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/select.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/select2.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/setjmp.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/stdint-intn.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/stdint-uintn.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/stdio.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/stdio2-decl.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/stdio2.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/stdio_lim.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/stdlib-bsearch.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/stdlib-float.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/stdlib.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/struct_mutex.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/struct_rwlock.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/thread-shared-types.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/time.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/time64.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/timesize.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/timex.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/FILE.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/__FILE.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/__fpos64_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/__fpos_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/__locale_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/__mbstate_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/__sigset_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/clock_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/clockid_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/cookie_io_functions_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/error_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/locale_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/mbstate_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/sigset_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/struct_FILE.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/struct___jmp_buf_tag.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/struct_itimerspec.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/struct_sched_param.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/struct_timespec.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/struct_timeval.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/struct_tm.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/time_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/timer_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/wint_t.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/typesizes.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/uintn-identity.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/waitflags.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/waitstatus.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/wchar.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/wchar2-decl.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/wchar2.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/wctype-wchar.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/wordsize.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/ctype.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/endian.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/errno.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/features-time64.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/features.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/gnu/stubs-64.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/gnu/stubs.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/linux/errno.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/locale.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/sched.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/stdc-predef.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/stdint.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/stdio.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/stdlib.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/sys/cdefs.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/sys/select.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/sys/single_threaded.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/sys/types.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/time.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wchar.h \
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wctype.h \
+  /nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni.h \
+  /nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni_md.h
+
 CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cpp \
   /home/runner/GraphingCalculator/src/drawable.h \
+  /home/runner/GraphingCalculator/src/java.h \
   /home/runner/GraphingCalculator/src/function/function.h \
   /home/runner/GraphingCalculator/src/rgb.h \
   /home/runner/GraphingCalculator/src/draw/drawableFunction.h \
@@ -1749,6 +2003,7 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
   /home/runner/GraphingCalculator/src/drawable.h \
   /home/runner/GraphingCalculator/src/function/function.h \
   /home/runner/GraphingCalculator/src/graphics.h \
+  /home/runner/GraphingCalculator/src/java.h \
   /home/runner/GraphingCalculator/src/rgb.h \
   /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll.hpp \
   /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/actions.hpp \
@@ -1818,6 +2073,7 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/cxxabi_forced.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/cxxabi_init_exception.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/deque.tcc \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/enable_special_members.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception_defines.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception_ptr.h \
@@ -1844,6 +2100,7 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/node_handle.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ostream.tcc \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ostream_insert.h \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/parse_numbers.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/postypes.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/predefined_ops.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ptr_traits.h \
@@ -1966,6 +2223,7 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/type_traits \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/typeinfo \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/utility \
+  /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/variant \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/vector \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/atomic_word.h \
   /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
@@ -2231,10 +2489,18 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/sys/types.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/time.h \
   /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wchar.h \
-  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wctype.h
+  /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wctype.h \
+  /nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni.h \
+  /nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni_md.h
 
+
+/home/runner/GraphingCalculator/src/java.cpp:
 
 /home/runner/GraphingCalculator/src/graphics.h:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/unordered_map.h:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/hashtable.h:
 
 /nix/store/ld9g3hp1c2spplr57x3gmq0ncxs5d8s1-SDL2_ttf-2.20.2/include/SDL2/SDL_ttf.h:
 
@@ -2257,6 +2523,8 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/endian.h:
 
 /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/wchar.h:
+
+/nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni.h:
 
 /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/uintn-identity.h:
 
@@ -2335,6 +2603,8 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 /nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/include/SDL2/SDL_timer.h:
 
 /nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/include/SDL2/SDL_thread.h:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/erase_if.h:
 
 /nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/include/SDL2/SDL_surface.h:
 
@@ -2480,10 +2750,6 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/pkuintrin.h:
 
-/nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/string_fortified.h:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/pconfigintrin.h:
-
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/stdarg.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/mwaitxintrin.h:
@@ -2548,7 +2814,13 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512vbmi2vlintrin.h:
 
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/std_abs.h:
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512vbmi2intrin.h:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512pfintrin.h:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512ifmavlintrin.h:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512ifmaintrin.h:
 
 /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/time.h:
 
@@ -2569,8 +2841,6 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/fxsrintrin.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/shared_ptr_base.h:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512ifmavlintrin.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/regex_scanner.h:
 
@@ -2596,9 +2866,7 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/sstream:
 
-/nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wchar.h:
-
-/nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/actions.hpp:
+/home/runner/GraphingCalculator/src/java.h:
 
 /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/time64.h:
 
@@ -2607,12 +2875,6 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/amxbf16intrin.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/range_access.h:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512vnnivlintrin.h:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/sstream.tcc:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/functional_hash.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cctype:
 
@@ -2631,10 +2893,6 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/backward/binders.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/ext/type_traits.h:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ranges_base.h:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/istream.tcc:
 
 /home/runner/GraphingCalculator/src/main.cpp:
 
@@ -2670,15 +2928,21 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/exception.h:
 
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/istream.tcc:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/ranges_base.h:
+
+/nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/wchar.h:
+
+/nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/actions.hpp:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/enable_special_members.h:
+
 /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/struct_itimerspec.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/deque.tcc:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/cxxabi_init_exception.h:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/hypergeometric.tcc:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bitset:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/iterator_concepts.h:
 
@@ -2734,23 +2998,11 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bit:
 
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/nested_exception.h:
+
 /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/struct_mutex.h:
 
 /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/actions/sequence.inc.hpp:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/nested_exception.h:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/wmmintrin.h:
-
-/nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll.hpp:
-
-/nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/stdint.h:
-
-/nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/clockid_t.h:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/std_function.h:
-
-/nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/actions/hexdec.inc.hpp:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/align.h:
 
@@ -2806,11 +3058,17 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 
 /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/fixed_string.hpp:
 
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/wmmintrin.h:
+
+/nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll.hpp:
+
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/enqcmdintrin.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/regex:
 
 /home/runner/GraphingCalculator/src/drawable.h:
+
+/home/runner/GraphingCalculator/src/ctre-consts.hpp:
 
 /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/mbstate_t.h:
 
@@ -2844,6 +3102,12 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 
 /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/actions/atomic_group.inc.hpp:
 
+/nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/string_fortified.h:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/pconfigintrin.h:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/parse_numbers.h:
+
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512fintrin.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/utility.h:
@@ -2868,11 +3132,15 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 
 /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/starts_with_anchor.hpp:
 
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/hashtable_policy.h:
+
 /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/sys/cdefs.h:
 
 /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/actions/repeat.inc.hpp:
 
 /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctll/list.hpp:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/variant:
 
 /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/gnu/stubs.h:
 
@@ -2901,6 +3169,8 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/asm/errno.h:
 
 /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/atoms.hpp:
+
+/nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include/jni_md.h:
 
 /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/atoms_characters.hpp:
 
@@ -2960,6 +3230,12 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 
 /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/operators.hpp:
 
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/alloc_traits.h:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/istream:
+
+/nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/wrapper.hpp:
+
 /nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/errno.h:
 
 /nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/range.hpp:
@@ -2976,11 +3252,25 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/algorithm:
 
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/istream:
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512vnnivlintrin.h:
 
-/nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/wrapper.hpp:
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/functional_hash.h:
 
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/alloc_traits.h:
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/sstream.tcc:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bitset:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/tr1/hypergeometric.tcc:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/std_abs.h:
+
+/nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/stdint.h:
+
+/nix/store/mrgib0s2ayr81xv1q84xsjg8ijybalq3-glibc-2.38-27-dev/include/bits/types/clockid_t.h:
+
+/nix/store/2z5nrdcy6lpn6mpyv1kjivpgdk6nfb3s-ctre-3.8.1/include/ctre/actions/hexdec.inc.hpp:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/std_function.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/bits/stl_algobase.h:
 
@@ -3067,6 +3357,8 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/cetintrin.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/concepts:
+
+/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/unordered_map:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/include/c++/12.3.0/cstdlib:
 
@@ -3219,9 +3511,3 @@ CMakeFiles/GCALC.dir/src/main.cpp.o: /home/runner/GraphingCalculator/src/main.cp
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512dqintrin.h:
 
 /nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512fp16vlintrin.h:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512ifmaintrin.h:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512pfintrin.h:
-
-/nix/store/hf2gy3km07d5m0p1lwmja0rg9wlnmyr7-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/include/avx512vbmi2intrin.h:

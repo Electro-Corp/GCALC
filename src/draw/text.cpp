@@ -8,7 +8,7 @@ Text::Text(std::string text, int x, int y, int size, RGB rgb){
   this->text = text;
   TTF_Init();
   // Load fonts
-  font = TTF_OpenFont("../assets/default.ttf", 28);
+  font = TTF_OpenFont("../assets/default.ttf", size);
   if(!font){
     printf("Error loading default font! %s\n", TTF_GetError());
     exit(-1);

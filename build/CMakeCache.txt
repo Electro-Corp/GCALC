@@ -236,6 +236,21 @@ GCLAC_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 GCLAC_SOURCE_DIR:STATIC=/home/runner/GraphingCalculator
 
+//Java AWT Native Interface include directory
+JAVA_AWT_INCLUDE_PATH:PATH=/nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include
+
+//Java AWT Native Interface library
+JAVA_AWT_LIBRARY:FILEPATH=/nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/lib/libjawt.so
+
+//JNI include directory
+JAVA_INCLUDE_PATH:PATH=/nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include
+
+//jni_md.h jniport.h include directory
+JAVA_INCLUDE_PATH2:PATH=/nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include
+
+//Java Virtual Machine library
+JAVA_JVM_LIBRARY:FILEPATH=/nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/lib/server/libjvm.so
+
 //The directory containing a CMake configuration file for SDL2.
 SDL2_DIR:PATH=/nix/store/k1q1lgnrd08a8aq7fwfsdkmikry6b4mb-SDL2-2.28.4-dev/lib/cmake/SDL2
 
@@ -401,8 +416,22 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/nix/store/bblyj5b3ii8n6v4ra0nb37cmi3lf8rz9-coreutils-9.3/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding JNI
+FIND_PACKAGE_MESSAGE_DETAILS_JNI:INTERNAL=[/nix/store/ppdlxyq8bgmk8djxq7vryvx4s6hxlmwj-zulu17.44.53-ca-jdk-17.0.8.1/include][cfound components: AWT JVM ][v()]
 //Details about finding SDL_ttf
 FIND_PACKAGE_MESSAGE_DETAILS_SDL_ttf:INTERNAL=[/nix/store/s9qkyybp8p2yna6c8z18vvhf526dywxi-SDL_ttf-2.0.11/lib/libSDL_ttf.so][/nix/store/s9qkyybp8p2yna6c8z18vvhf526dywxi-SDL_ttf-2.0.11/include/SDL][v2.0.11()]
+//ADVANCED property for variable: JAVA_AWT_INCLUDE_PATH
+JAVA_AWT_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JAVA_AWT_LIBRARY
+JAVA_AWT_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JAVA_INCLUDE_PATH
+JAVA_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JAVA_INCLUDE_PATH2
+JAVA_INCLUDE_PATH2-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JAVA_JVM_LIBRARY
+JAVA_JVM_LIBRARY-ADVANCED:INTERNAL=1
+//Test JNI_INCLUDE_PATH2_OPTIONAL
+JNI_INCLUDE_PATH2_OPTIONAL:INTERNAL=1
 //ADVANCED property for variable: SDL_TTF_INCLUDE_DIR
 SDL_TTF_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SDL_TTF_LIBRARY

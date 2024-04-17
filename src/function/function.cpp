@@ -1,13 +1,19 @@
 #include "function.h"
 #include "../ctreextra.hpp"
+#include "../ctre-consts.hpp"
 
-Func::Func(std::string _funcStr) {
+Func::Func(std::string _funcStr, JavaHelper jHelper) {
     this->funcStr = _funcStr;
+    std::cout << funcStr << "\n";
+    funcStr = jHelper.regexReplace(funcStr, "^\\(|\\)$| ", "");
 
-    //ctrea::replace(this->funcStr, "^\\(|\\)$| ", "");
+  
+    //ctrea::replace(this->funcStr, ctreconst::Regex::SWAG, std::string_view(""));
     
     
-    
+    // wtf is class auto:16
+
+  
     /*
     // ctre::match<"^\\(|\\)$| ">(funcStr);
 
@@ -59,5 +65,6 @@ std::vector<Func> Func::getFuncs() {
 }
 
 double Func::solve(double x){
-  return (0.1 * (x * x));
+  //return 0.1 * (x * x);
+  return (50 * sin(0.01 * x));
 }
