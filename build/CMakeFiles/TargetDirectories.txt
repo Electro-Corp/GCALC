@@ -1,3 +1,0 @@
-/home/runner/GraphingCalculator/build/CMakeFiles/GCALC.dir
-/home/runner/GraphingCalculator/build/CMakeFiles/edit_cache.dir
-/home/runner/GraphingCalculator/build/CMakeFiles/rebuild_cache.dir
