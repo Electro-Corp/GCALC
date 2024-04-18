@@ -25,13 +25,14 @@ include_directories(src)
 add_executable(GCALC
     # Java helper
     src/java.cpp
+    # Function
+    src/function/term.cpp
+    src/function/function.cpp
     # Graphics
     src/graphics.cpp
     src/draw/line.cpp
     src/draw/text.cpp
     src/draw/drawableFunction.cpp
-    # Function
-    src/function/function.cpp
     #ctre-addon
     src/ctre-consts.hpp
     src/ctreextra.hpp

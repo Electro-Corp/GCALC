@@ -29,10 +29,6 @@ JavaHelper::JavaHelper(){
 
 
 std::string JavaHelper::regexReplace(std::string string, std::string pattern, std::string replace){
-  std::string argString;
-  for(int i = 0; i < 3; i++){
-    argString += "()Ljava/lang/String;";
-  }
   jmethodID mid = env->GetStaticMethodID(regexClass, "replaceAll", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;");
   if(mid == nullptr){
     std::cout << "Failed to get method ID of replaceAll\n";
@@ -42,8 +38,7 @@ std::string JavaHelper::regexReplace(std::string string, std::string pattern, st
   jstring jString = env->NewStringUTF(string.c_str());
   jstring jPattern = env->NewStringUTF(pattern.c_str());
   jstring jReplace = env->NewStringUTF(replace.c_str());
-
-  std::cout << "Got methodID\n";
+  
   jobject result = env->CallObjectMethod(jString, mid, jString, jPattern, jReplace);
   const char* str = env->GetStringUTFChars((jstring) result, NULL);
   std::string re(str);

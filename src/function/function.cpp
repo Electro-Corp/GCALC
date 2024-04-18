@@ -2,51 +2,17 @@
 #include "../ctreextra.hpp"
 #include "../ctre-consts.hpp"
 
-Func::Func(std::string _funcStr, JavaHelper jHelper) {
+Func::Func(std::string _funcStr, JavaHelper* jHelper) {
     this->funcStr = _funcStr;
+    this->jHelper = jHelper;
     std::cout << funcStr << "\n";
-    funcStr = jHelper.regexReplace(funcStr, "^\\(|\\)$| ", "");
-
-  
-    //ctrea::replace(this->funcStr, ctreconst::Regex::SWAG, std::string_view(""));
+    funcStr = jHelper->regexReplace(funcStr, "^\\(|\\)$| ", "");
     
-    
-    // wtf is class auto:16
+    Func::seperate(*this);
+}
 
-  
-    /*
-    // ctre::match<"^\\(|\\)$| ">(funcStr);
-
-    constexpr auto pattern = ctll::fixed_string("^\\(|\\)$| ");
-    auto regex = ctre::regular_expression(pattern);
-
-    constexpr auto match(std::string_view sv) noexcept {
-        return ctre::match<patern>(sv);
-    } 
-
-    /*
-    while (match) {
-        funcStr[match.get_end()] = ""; // what the char is set to
-        match = regex.match(funcStr, match.get_end());
-    }
-    */
-    
-    /*
-    // Remove spaces, and open/closed parenthesis at the start/end
-    // Ex.
-    // ( 2 + 4 ) -> 2+4    
-    funcStr = std::regex_replace(funcStr, std::regex("^\\(|\\)$| "), "");
-
-    // Replaces all instances of - with +-1*
-    // This might not be necaserry but ill do it anyway
-    funcStr = std::regex_replace(funcStr, std::regex("-"), "+-1*");
-
-    // Replace instances of x without a number before it with 1*x
-    funcStr = std::regex_replace(funcStr, std::regex("^x|\\+x"), "+1*x");
-
-    // Replace instances of x with a coefficient with *x
-    funcStr = std::regex_replace(funcStr, std::regex("(?<=\\d)x"), "*x");
-    */
+Func::Func() {
+    this->funcStr = "";
 }
 
 void Func::print() {
@@ -60,11 +26,24 @@ void Func::print() {
 }
 
 
-std::vector<Func> Func::getFuncs() {
-    return this->funcs;
+std::vector<Func>* Func::getFuncs() {
+    return &(this->funcs);
 }
 
 double Func::solve(double x){
   //return 0.1 * (x * x);
   return (50 * sin(0.01 * x));
+}
+
+Func Func::seperate(Func func) {
+    std::string str = func.funcStr;
+    for (int i = 0; i < str.length(); i++) {
+        if(str[i] == '(') {
+            func.getFuncs()->push_back(Func(str.substr(i), func.jHelper));
+        }
+    }
+}
+
+Func::~Func(){
+  
 }

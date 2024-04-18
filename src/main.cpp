@@ -49,7 +49,7 @@ int main(){
   // Equation
   std::string tempequation = "x^2 - 3x + 2 - sin(PI()x + 12x + 4) - cos(4PI()x - 4x) + x";
   std::string simple = "x^2 + 2x + 2";
-  Func testEquation(tempequation, jHelper);
+  Func testEquation(tempequation, &jHelper);
   testEquation.print();
 
   DrawFunc testDrawFunc(&testEquation);

@@ -8,7 +8,7 @@
 #include <algorithm>
 #include <regex>
 #include <cmath>
-
+#include "term.h"
 #include <ctre.hpp>
 #include <ctll.hpp>
 
@@ -16,15 +16,20 @@
 /*
   Class 
 */
+class Term;
 class Func {
   public:
-    Func(std::string funcStr, JavaHelper jHelper);
+    Func();
+    Func(std::string funcStr, JavaHelper* jHelper);
     double solve(double x);
     void print();
-    std::vector<Func> getFuncs();
-
+    std::vector<Func>* getFuncs();
+    ~Func();
   private:
     std::string funcStr;
+    std::vector<Term> terms;
     std::vector<Func> funcs;
+    Func seperate(Func func);
+    JavaHelper* jHelper;
 }; 
 #endif
