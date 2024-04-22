@@ -7,6 +7,8 @@
 
 #include <jni.h>
 
+static int jHelperAlive = 0;
+
 class JavaHelper{
 private:
   JavaVM *vm;

@@ -29,7 +29,7 @@ class Func {
     std::string funcStr;
     std::vector<Term> terms;
     std::vector<Func> funcs;
-    Func seperate(Func func);
+    void seperate();
     JavaHelper* jHelper;
 }; 
 #endif

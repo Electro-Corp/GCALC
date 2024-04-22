@@ -3,31 +3,31 @@
 #include "../ctre-consts.hpp"
 
 Func::Func(std::string _funcStr, JavaHelper* jHelper) {
-    this->funcStr = _funcStr;
-    this->jHelper = jHelper;
-    std::cout << funcStr << "\n";
-    funcStr = jHelper->regexReplace(funcStr, "^\\(|\\)$| ", "");
-    
-    Func::seperate(*this);
+  this->funcStr = _funcStr;
+  this->jHelper = jHelper;
+  std::cout << funcStr << "\n";
+  funcStr = jHelper->regexReplace(funcStr, "^\\(|\\)$| ", "");
+  std::cout << "funcstr after java: " << funcStr << "\n";
+  seperate();
 }
 
 Func::Func() {
-    this->funcStr = "";
+  this->funcStr = "";
 }
 
 void Func::print() {
-    if (this->funcs.size() > 0) {
-        for (auto& func : funcs) {  
-            func.print();
-        }
-    } else {
-        std::cout << this->funcStr << "\n";
+  if (this->funcs.size() > 0) {
+    for (auto& func : funcs) {  
+      func.print();
     }
+  } else {
+    std::cout << this->funcStr << "\n";
+  }
 }
 
 
 std::vector<Func>* Func::getFuncs() {
-    return &(this->funcs);
+  return &(this->funcs);
 }
 
 double Func::solve(double x){
@@ -35,13 +35,17 @@ double Func::solve(double x){
   return (50 * sin(0.01 * x));
 }
 
-Func Func::seperate(Func func) {
-    std::string str = func.funcStr;
-    for (int i = 0; i < str.length(); i++) {
-        if(str[i] == '(') {
-            func.getFuncs()->push_back(Func(str.substr(i), func.jHelper));
-        }
+void Func::seperate() {
+  // there is something wrong with i
+  // it goes over the length even though it shouldnt
+  // i kinda fixed it with the return statment but
+  // it still dosent make sense that the for loop wouldnt stop
+  for (int i = 0; i < funcStr.length(); i++) {
+    if(i + 1 > funcStr.length()) return;
+    if(funcStr[i] == '(') {
+      getFuncs()->push_back(Func(funcStr.substr(i), jHelper));
     }
+  }
 }
 
 Func::~Func(){

@@ -1,5 +1,6 @@
 { pkgs }: {
     deps = [
+      pkgs.nano
       pkgs.zulu17
       pkgs.llvmPackages_13.clang-unwrapped
       pkgs.SDL_image
